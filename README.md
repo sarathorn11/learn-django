@@ -1,5 +1,6 @@
 # learn-django
-<!-- create env -->
+
+<!-- create env
 python3 -m venv env
 
 <!-- activate env -->
@@ -16,3 +17,7 @@ python manage.py
 
 <!-- create main folder -->
 python manage.py startapp main
+
+<!-- use this command to create admin user -->
+
+python manage.py createsuperuser
